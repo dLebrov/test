@@ -16,13 +16,15 @@ $(document).ready(function() {
         item = $sliderWin.find('.slider-item'),
         pos = item.outerWidth(true); 
         if($sliderWin.css('margin-left') <= '-1200px'){
+            alert("work");
             $sliderWin.animate(
                 {'margin-left': '0px'}, 
                 1000
             ); 
     } else {
+        alert("work1");
         $sliderWin.animate(
-            {'margin-left': '-='+pos}, 
+            {'margin-left': '-='+ pos}, 
             1000
         ); 
     }    
@@ -30,7 +32,6 @@ $(document).ready(function() {
 });
 
 const ScrollProblems = () => {
-
     return (
         <Container fluid>
             <Row>
