@@ -1,0 +1,50 @@
+.slider {
+max-width: 425px;
+width: 100%;
+margin: 0 auto;
+overflow: hidden;
+position: relative;
+box-sizing: border-box;
+}
+
+.slider-item {
+width: 200px;
+height: 200px;
+line-height: 200px;
+text-align: center;
+color:#fff;
+font-weight: bold;
+font-size:30px;
+border-radius: 10px;
+background-size: cover;
+background: orangered;
+float: left;
+margin: 5px;
+
+flex-grow: 0;
+flex-shrink:0;
+}
+
+.slider-win {  
+display: flex;
+overflow-y: hidden;
+margin-bottom: 30px;
+/* overflow-x: scroll; */
+}
+
+.slider-control {
+display: flex;
+justify-content: space-between;
+}
+
+.sl-btn {
+background: #000;
+display: inline-block;
+padding: 5px 10px;
+border-radius:5px;
+cursor: pointer;
+}
+
+.sl-btn:hover {
+opacity: .85;
+}
