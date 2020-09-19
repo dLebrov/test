@@ -1,0 +1,40 @@
+.mainFlex {
+    display: flex;
+    align-items: center;
+    padding: 20px 0 20px 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.mainFlex img {
+    height: 60px;
+    margin-right: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 22px;
+    color: #042D48;
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+
+.mainFlex p {
+    font-size: 17px;
+    color: #919599;
+}
+
+.head {
+    height: 81px !important;
+    margin-right: 10px !important;
+    margin-bottom: 5px;
+}
+
+#head {
+    padding: 15px 0 15px 15px !important;
+}
+
+#help img {
+    height: 70px;
+}

@@ -1,0 +1,103 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+.slider {
+    margin: 0 auto;
+    overflow: hidden;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.slider-item {
+    width: 320px;
+    height: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size:30px;
+    float: left;
+    margin: 15px 15px 0 15px;
+    border-radius: 10px;
+    flex-grow: 0;
+    flex-shrink:0;
+}
+
+.slider-item:hover {
+    position: relative;
+    top: -5px;
+    box-shadow: 2px 3px 0px 1px rgba(0, 0, 0, 0.6);
+}
+
+.slider-win {  
+    display: flex;
+    overflow-y: hidden;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 1);
+    scroll-behavior: smooth;
+}
+
+.flexHelp {
+    display: flex;
+    justify-content: space-between; 
+    height: 90px;
+    color: #fff;
+}
+
+.flexHelp img {
+    height: 80px;
+    width: 80px;
+    margin: 15px 0 0 15px;
+}
+
+.flexHelp p {
+    margin: 15px 15px 0 0;
+    font-size: 25px;
+}
+
+.flexHelp span {
+    margin: 30px 0 0 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#stomach {
+    background-color:#fad7b0;
+}
+
+#tooth {
+    background-color:#acc4f5;
+}
+
+#leg {
+    background-color:#72cdc1;
+}
+
+#heart {
+    background-color:#ecb6ca;
+}
+
+#virus {
+    background-color:#fad7b1;
+}
+
+.slider-control {
+    position: absolute;
+    right: 9px;
+    top:160px;
+    margin-bottom: 20px;
+    padding: 12px 14px 17px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.vector img {
+    padding: 0;
+    margin: 0;
+    height: 20px;
+    width: 20px;
+}

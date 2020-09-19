@@ -4,8 +4,16 @@
     align-items: center;
 }
 
+.headerLogo img {
+    height: 50px;
+}
+
 .enzimo {
     margin-left: 14px;
+}
+
+.enzimo img {
+    height: 35px;
 }
 
 .badges {

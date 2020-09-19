@@ -1,15 +1,14 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import logo from "../../img/logo.png";
-import enzimo from "../../img/enzimo.png";
+import logo from "../../img/logo.svg";
+import enzimo from "../../img/enzimo.svg";
 import s from "./Header.module.css";
-import magnifier from "../../img/magnifier.png";
-import quetion from "../../img/quetion.png";
+import magnifier from "../../img/magnifier.svg";
 
 const Header = () => {
     return (<Container fluid> 
             <Row>
-                <Col lg={2} >
+                <Col lg={3}>
                     <div className={s.headerLogo}>
                         <div>
                             <img src={logo} alt=""/>
@@ -19,8 +18,7 @@ const Header = () => {
                         </div>
                     </div>
                 </Col>
-                <Col lg={9}></Col>
-                <Col lg={1}>
+                <Col lg={{span: 1, offset: 8}}>
                     <div className={s.badges}>
                         <div className={s.magnifier}>
                             <img src={magnifier} alt=""/>
