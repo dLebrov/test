@@ -43,3 +43,14 @@
     color: #F9B161;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
+
+@media (max-width: 400px) {
+    .headerLogo img {
+        height: 40px;
+    }
+
+    .enzimo img {
+        height: 25px;
+    }
+}
