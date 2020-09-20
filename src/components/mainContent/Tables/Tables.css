@@ -38,3 +38,46 @@
 #help img {
     height: 70px;
 }
+
+#lastItem {
+    padding: 0 0 0 20px !important;
+}
+
+@media (min-width: 768px) {
+    .mainFlex img {
+        height: 40px;
+        margin-right: 15px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .mainFlex p {
+        font-size: 14px;
+        color: #919599;
+    }
+
+    #lastItem {
+        padding: 20px 0 20px 20px !important;
+    }
+}
+
+@media (max-width: 879px) {
+    #lastItem {
+        padding: 10px 0 3px 20px !important;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #lastItem {
+        padding: 20px 0 20px 20px !important;
+    }
+}
+
+@media (min-width: 400px) {
+    .mainFlex {
+        justify-content: center;
+    }
+}

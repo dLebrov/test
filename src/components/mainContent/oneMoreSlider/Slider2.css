@@ -10,7 +10,7 @@
     color: #538CFF;
     font-size: 30px;
     margin-top: 25px;
-    margin-left: 120px;
+    float: right;
     cursor: pointer;
 }
 
@@ -66,16 +66,17 @@
 
 #table2 {
     background-color: #fff;
-    box-shadow: 1px 2px 2px 0 rgba(117, 117, 117, 0.4);
+    box-shadow: 2px 2px 2px 2px rgba(117, 117, 117, 0.4);
 }
 
 #table3 {
     background-color: #518CFF;
 }
 
-.slider-control {
+.slider-control2 {
     position: absolute;
-    top:130px;
+    top:120px;
+    right: 4px;
     margin-bottom: 20px;
     padding: 17px 19px 22px 25px;
     border-radius: 50%;
@@ -85,7 +86,7 @@
 
 }
 
-.slider-control2 {
+.slider-control3 {
     position: absolute;
     top:130px;
     left: 3px;
@@ -103,3 +104,103 @@
     height: 20px;
     width: 20px;
 }
+
+@media (min-width: 991px) {
+    #table1 {
+        margin-bottom: 0;
+    }
+
+    .table2 {
+        margin-bottom: 40px !important;
+    }
+
+    .viewAll p {
+        font-size: 25px;
+    }
+
+    .viewAll img {
+        height: 19px;
+        margin: 13px 0 0 12px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .slider-control2 {
+        display: block !important;
+    }
+
+    .slider-control3 {
+        display: block !important;
+    }
+}
+
+@media (min-width: 300px) {
+
+    .slider-control2 {
+        display: none;
+    }
+
+    .slider-control3 {
+        display: none;
+    }
+
+    .table2 {
+        margin-bottom: 40px !important;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 977px) {
+    .clinicLogo img {
+        height: 100px;
+        width: 100px;
+    }
+    
+    .clinicName {
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 110px 0 0 60px ;
+    }
+
+    .intersect img{
+        padding: 0;
+        margin: 0;
+        height: 100px;
+        width: 100px;
+    }
+
+    .clinicName2 {
+        font-size: 20px;
+    }
+}
+
+
+
+@media (max-width: 822px) {
+    .viewAll p {
+        font-size: 25px;
+    }
+    .viewAll img {
+        height: 19px;
+        margin: 13px 0 0 12px;
+    }
+}
+
+@media (max-width:768px) {
+    
+    .clinicLogo img {
+        height: 124px;
+        width: 124px;
+    }
+    
+    .clinicName {
+        font-size: 25px;
+    }
+    
+    .clinicName2 {
+        font-size: 25px;
+    }
+}
+

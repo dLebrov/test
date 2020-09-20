@@ -10,158 +10,169 @@ import table6 from "../../../img/table6.svg";
 import table7 from "../../../img/table7.svg";
 import table8 from "../../../img/table8.svg";
 import table9 from "../../../img/table9.svg";
+import { NavLink } from "react-router-dom";
 
 const Tables = () => {
-    return (<>
-    <Container fluid>
+  return (
+    <>
+      <Container fluid>
         <Row>
-            <Col lg={4}>
-                <div className="mainFlex" id="help">
-                    <div>
-                        <img src={table1} alt=""/>
-                    </div>
-                    <div>
-                        <div className ="title">
-                            Терапевт
-                        </div>
-                        <p>
-                            Специалист общего профиля
-                        </p>
-                    </div>
+          <Col lg={4} md={4}>
+            <NavLink
+              style={{textDecoration: "none", color: "#007bff" }}
+              to="box"
+              >
+              <div className="mainFlex" id="help">
+                <div>
+                  <img src={table1} alt="" />
                 </div>
-            </Col>
-            <Col lg={4}>
-                <div className="mainFlex">
-                    <div>
-                        <img src={table2} alt=""/>
-                    </div>
-                    <div>
-                        <div className ="title">
-                            Педиатр
-                        </div>
-                        <p>
-                            Специалист общего профиля
-                        </p>
-                    </div>
+                <div>
+                  <div className="title">Терапевт</div>
+                  <p>Специалист общего профиля</p>
                 </div>
-            </Col>
-            <Col lg={4}>
-                <div className="mainFlex" id="head">
-                    <div>
-                        <img className="head" src={table3} alt=""/>
-                    </div>
-                    <div>
-                        <div className ="title">
-                            Лор
-                        </div>
-                        <p>
-                            Специалист общего профиля
-                        </p>
-                    </div>
+              </div>
+            </NavLink>
+          </Col>
+          <Col lg={4} md={4}>
+            <NavLink
+              style={{ textDecoration: "none", color: "#007bff" }}
+              to="box"
+            >
+              <div className="mainFlex">
+                <div>
+                  <img src={table2} alt="" />
                 </div>
-            </Col>
+                <div>
+                  <div className="title">Педиатр</div>
+                  <p>Специалист общего профиля</p>
+                </div>
+              </div>
+            </NavLink>
+          </Col>
+          <Col lg={4} md={4}>
+            <NavLink
+              style={{ textDecoration: "none", color: "#007bff" }}
+              to="box"
+            >
+              <div className="mainFlex" id="head">
+                <div>
+                  <img className="head" src={table3} alt="" />
+                </div>
+                <div>
+                  <div className="title">Лор</div>
+                  <p>Специалист общего профиля</p>
+                </div>
+              </div>
+            </NavLink>
+          </Col>
         </Row>
-    </Container>
-    <Container fluid>
-    <Row>
-        <Col lg={4}>
-            <div className="mainFlex" id="help">
-                <div>
-                    <img src={table4} alt=""/>
-                </div>
-                <div>
-                    <div className ="title">
-                        Фониатор
-                    </div>
-                    <p>
-                        Специалист общего профиля
-                    </p>
-                </div>
-            </div>
-        </Col>
-        <Col lg={4}>
-            <div className="mainFlex">
-                <div>
-                    <img src={table5} alt=""/>
-                </div>
-                <div>
-                    <div className ="title">
-                        Уролог
-                    </div>
-                    <p>
-                        Специалист общего профиля
-                    </p>
-                </div>
-            </div>
-        </Col>
-        <Col lg={4}>
-            <div className="mainFlex" id="head">
-                <div>
-                    <img className="head" src={table6} alt=""/>
-                </div>
-                <div>
-                    <div className ="title">
-                        Офтальмолог
-                    </div>
-                    <p>
-                        Специалист общего профиля
-                    </p>
-                </div>
-            </div>
-        </Col>
-    </Row>
-</Container>
-<Container fluid>
+      </Container>
+      <Container fluid>
         <Row>
-            <Col lg={4}>
-                <div className="mainFlex">
-                    <div>
-                        <img src={table7} alt=""/>
-                    </div>
-                    <div>
-                        <div className ="title">
-                            Гастроэнтеролог
-                        </div>
-                        <p>
-                            Специалист общего профиля
-                        </p>
-                    </div>
+          <Col lg={4} md={4}>
+            <NavLink
+              style={{ textDecoration: "none", color: "#007bff" }}
+              to="box"
+            >
+              <div className="mainFlex" id="help">
+                <div>
+                  <img src={table4} alt="" />
                 </div>
-            </Col>
-            <Col lg={4}>
-                <div className="mainFlex">
-                    <div>
-                        <img src={table8} alt=""/>
-                    </div>
-                    <div>
-                        <div className ="title">
-                            Невролог
-                        </div>
-                        <p>
-                            Специалист общего профиля
-                        </p>
-                    </div>
+                <div>
+                  <div className="title">Фониатор</div>
+                  <p>Специалист общего профиля</p>
                 </div>
-            </Col>
-            <Col lg={4}>
-                <div className="mainFlex">
-                    <div>
-                        <img src={table9} alt=""/>
-                    </div>
-                    <div>
-                        <div className ="title">
-                            Стоматолог терапевт
-                        </div>
-                        <p>
-                            Специалист общего профиля
-                        </p>
-                    </div>
+              </div>
+            </NavLink>
+          </Col>
+          <Col lg={4} md={4}>
+            <NavLink
+              style={{ textDecoration: "none", color: "#007bff" }}
+              to="box"
+            >
+              <div className="mainFlex">
+                <div>
+                  <img src={table5} alt="" />
                 </div>
-            </Col>
+                <div>
+                  <div className="title">Уролог</div>
+                  <p>Специалист общего профиля</p>
+                </div>
+              </div>
+            </NavLink>
+          </Col>
+          <Col lg={4} md={4}>
+            <NavLink
+              style={{ textDecoration: "none", color: "#007bff" }}
+              to="box"
+            >
+              <div className="mainFlex" id="head">
+                <div>
+                  <img className="head" src={table6} alt="" />
+                </div>
+                <div>
+                  <div className="title">Офтальмолог</div>
+                  <p>Специалист общего профиля</p>
+                </div>
+              </div>
+            </NavLink>
+          </Col>
         </Row>
-    </Container>
-</>
-    )
+      </Container>
+      <Container fluid>
+        <Row>
+          <Col lg={4} md={4}>
+            <NavLink
+              style={{ textDecoration: "none", color: "#007bff" }}
+              to="box"
+            >
+              <div className="mainFlex">
+                <div>
+                  <img src={table7} alt="" />
+                </div>
+                <div>
+                  <div className="title">Гастроэнтеролог</div>
+                  <p>Специалист общего профиля</p>
+                </div>
+              </div>
+            </NavLink>
+          </Col>
+          <Col lg={4} md={4}>
+            <NavLink
+              style={{ textDecoration: "none", color: "#007bff" }}
+              to="box"
+            >
+              <div className="mainFlex">
+                <div>
+                  <img src={table8} alt="" />
+                </div>
+                <div>
+                  <div className="title">Невролог</div>
+                  <p>Специалист общего профиля</p>
+                </div>
+              </div>
+            </NavLink>
+          </Col>
+          <Col lg={4} md={4}>
+            <NavLink
+              style={{ textDecoration: "none", color: "#007bff" }}
+              to="box"
+            >
+              <div className="mainFlex" id="lastItem">
+                <div>
+                  <img src={table9} alt="" />
+                </div>
+                <div>
+                  <div className="title">Стоматолог терапевт</div>
+                  <p>Специалист общего профиля</p>
+                </div>
+              </div>
+            </NavLink>
+          </Col>
+        </Row>
+      </Container>
+    </>
+  );
 };
 
 export default Tables;
